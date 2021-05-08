@@ -1,0 +1,19 @@
+Vagrant.configure("2") do |config|
+
+    config.vm.box = "ubuntu/xenial64"
+
+    config.disksize = '25GB'
+
+    config.vm.provision :shell, path: "setup-vagrant.sh"
+
+    config.vm.network :forwarded_port, guest: 8080, host: 8080, host_ip: "127.0.0.1"
+    config.vm.network :forwarded_port, guest: 9990, host: 9992, host_ip: "127.0.0.1"
+    config.vm.network :forwarded_port, guest: 8787, host: 8787, host_ip: "127.0.0.1"
+    config.vm.network :forwarded_port, guest: 3306, host: 3306, host_ip: "127.0.0.1"
+
+    config.vm.provider "virtualbox" do |v|
+        v.memory = 8096
+        v.cpus = 2
+    end
+
+end
