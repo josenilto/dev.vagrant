@@ -63,6 +63,6 @@ end
 
 #### ➡️ Links:
 
-[<img title="Ansible" align="left" alt="josenilto | Twitter" width="28px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/vagrant.svg" />][vagrant]
+[<img title="Vagrant" align="left" alt="josenilto | Twitter" width="28px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/vagrant.svg" />][vagrant]
 
 [vagrant]: https://www.vagrantup.com
