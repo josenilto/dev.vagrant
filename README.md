@@ -7,6 +7,8 @@ Por exemplo, para VirtualBox, KVM, Hyper-V, contêineres Docker, VMware e AWS.
 
 Aqui podemos ver a estrutura - hyperv.
 
+
+Arquivo: setup-vagrant.sh
 ```MD
 
 #!/usr/bin/env bash
@@ -33,6 +35,7 @@ mvn -f /vagrant/minha-aplicacao/pom.xml clean package wildfly:deploy
 
 ```
 
+Arquivo: Vagrantfile
 ```MD
 
 Vagrant.configure("2") do |config|
@@ -54,6 +57,7 @@ Vagrant.configure("2") do |config|
 end
 
 ```
+
 
 #### ➡️ Links:
 
