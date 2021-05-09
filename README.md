@@ -1,5 +1,6 @@
 # Vagrant Gerenciando máquinas virtuais
-Ambientes de desenvolvimento de software virtual portátil; por exemplo, para VirtualBox, KVM, Hyper-V, contêineres Docker, VMware e AWS.
+Ambientes de desenvolvimento de software virtual portátil; 
+Por exemplo, para VirtualBox, KVM, Hyper-V, contêineres Docker, VMware e AWS.
 
 
 ### 🔨 Exemplo:
@@ -8,7 +9,7 @@ Aqui podemos ver a estrutura.
 
 
 ```MD
---- 
+
 Vagrant.configure("2") do |config|
 
     config.vm.box = "hashicorp/precise64"
@@ -28,8 +29,6 @@ Vagrant.configure("2") do |config|
 end
 
 ```
-
-----
 
 #### ➡️ Links:
 
