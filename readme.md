@@ -1,7 +1,9 @@
 ### 🛠 DEV VAGRANT | Gerenciando máquinas virtuais
 
-Ambientes de desenvolvimento de software virtual portátil;   
-Por exemplo, para VirtualBox, KVM, Hyper-V, contêineres Docker, VMware e AWS.
+Vagrant é um produto de software de código aberto para construir e manter ambientes de desenvolvimento de software virtual portátil;    
+Por exemplo, para VirtualBox, KVM, Hyper-V, contêineres Docker, VMware e AWS.    
+
+Ele tenta simplificar o gerenciamento de configuração de software de virtualização para aumentar a produtividade do desenvolvimento.
 
 ----
 
