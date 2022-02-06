@@ -1,6 +1,6 @@
 ###  ℹ️ Dev Vagrant | Gerenciando máquinas virtuais
 
-Ambientes de desenvolvimento de software virtual portátil;		
+Ambientes de desenvolvimento de software virtual portátil;   
 Por exemplo, para VirtualBox, KVM, Hyper-V, contêineres Docker, VMware e AWS.
 
 ----
