@@ -7,7 +7,7 @@ Gerenciamento de configuração de software de virtualização para aumentar a p
 
 ----
 
-### 🔨 Exemplo:
+#### Exemplo:
 
 Aqui podemos ver a estrutura - hyperv.
 
