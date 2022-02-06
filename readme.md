@@ -12,7 +12,7 @@ Gerenciamento de configuração de software de virtualização para aumentar a p
 Aqui podemos ver a estrutura - hyperv.
 
 
-Arquivo: setup-vagrant.sh
+Arquivo: **setup-vagrant.sh**
 ```MD
 
 #!/usr/bin/env bash
@@ -39,7 +39,7 @@ mvn -f /vagrant/minha-aplicacao/pom.xml clean package wildfly:deploy
 
 ```
 
-Arquivo: Vagrantfile
+Arquivo: **Vagrantfile**
 ```MD
 
 Vagrant.configure("2") do |config|
