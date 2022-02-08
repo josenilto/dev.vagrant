@@ -76,3 +76,5 @@ end
 </h4>
 
 https://www.vagrantup.com/docs
+
+https://www.vagrantup.com/docs/providers/virtualbox/configuration
